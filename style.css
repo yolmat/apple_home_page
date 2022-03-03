@@ -1,0 +1,333 @@
+/* Cores
+
+texto header = #F5F5F7
+texto header Hhover = #FFFFFF
+Fundo Header = #333333
+
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.header {
+    position: sticky; 
+    top: 0; 
+}
+
+header {
+    width: 100%;
+    display: flex;
+    background-color: #333333;
+    padding: 1rem 12rem;
+    justify-content: space-between;
+}
+
+header a {
+    text-decoration: none;
+    color: #C0C0C0;
+    font-size: 0.7rem;
+}
+
+a p {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+a i {
+    font-size: 1.2rem;
+    color: #C0C0C0;
+}
+
+a i:hover {
+    color: #FFFFFF;
+    animation: color-change-2x 0.4s ease-in-out alternate both;
+}
+
+header a:hover {
+    color: #FFFFFF;
+}
+
+.goToShopping {
+    width: 100%;
+    display: flex;
+    background-color: black;
+
+}
+
+aside {
+    width: 100%;
+    background-color: #F5F5F7;
+    color: #1D1D1F;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 1rem;
+}
+
+a {
+    color: #3284D6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.grids {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    text-align: center;
+}
+
+.multiploGrid {
+    margin: 0 10px;
+}
+
+.grid1 {
+    background-image: url(./assets/Grid1\ large.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 624px;
+    width: 100%;
+    padding: 50px 0;
+}
+
+.grid2 {
+    background-image: url(./assets/Grid2\ large.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 624px;
+    width: 100%;
+    padding: 50px 0;
+    margin-top: 10px;
+}
+
+.grid3 {
+    background-image: url(./assets/Grid3\ large.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 624px;
+    width: 100%;
+    padding: 50px 0;
+    margin-top: 10px;
+}
+
+.multiploGrid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap
+}
+
+.grid4 {
+    background-image: url(./assets/Grid4\ large.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 580px;
+    width: 50%;
+    margin-top: 10px;
+    padding-top: 400px;
+}
+
+.grid5 {
+    background-image: url(./assets/Grid5\ large.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 580px;
+    width: 50%;
+    margin-top: 10px;
+    padding: 50px 0;
+    flex-wrap: nowrap;
+}
+
+.grid6 {
+    background-image: url(./assets/Grid6\ large.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 580px;
+    width: 50%;
+    margin-top: 10px;
+    padding: 50px 0;
+}
+
+.grid7 {
+    background-image: url(./assets/Grid7\ large.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 580px;
+    width: 50%;
+    margin-top: 10px;
+    padding-top: 410px;
+}
+
+.grid8 {
+    background-image: url(./assets/Grid8\ large.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 580px;
+    width: 50%;
+    margin-top: 10px;
+    padding: 25px 0;
+}
+
+.grid9 {
+    background-image: url(./assets/Grid9\ large.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 580px;
+    width: 50%;
+    margin-top: 10px;
+    padding-top: 350px;
+    margin-bottom: 10px;
+}
+
+.grids h1 {
+    color: #1D1D1F;
+    font-size: 55px;
+    font-weight: 700;
+    padding: 15px 0;
+}
+
+.grids h2 {
+    color: #707071;
+    font-weight: 200;
+}
+
+.grid1 h5 {
+    color: #bf4800;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.links, .links i {
+    padding-top: 20px;
+    color: #3284D6;
+    font-size: 22px;
+}
+
+.links i:hover {
+    color: #3284D6;
+}
+
+.grid3 h1 {
+    color: #F5F5F7;
+}
+
+.grid3 h2 {
+    color: #FEC2EB;
+}
+
+.grid4 h1 {
+    color: #F5F5F7;
+    font-size: 30px;
+}
+
+.grid4 h2 {
+    color: #F5F5F7;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.grid4 .links a {
+    font-size: 15px;
+}
+
+.grid5 h5 {
+    color: #bf4800;
+    font-weight: 200;
+}
+
+.grid5 h1 {
+    font-size: 30px;
+}
+
+.grid6 h1 {
+    font-size: 40px;
+}
+
+.grid6 h2 {
+    font-size: 20px;
+}
+
+.grid7 h1 {
+    font-size: 40px;
+}
+
+.grid7 h2 {
+    font-size: 20px;
+}
+
+.grid8 h1 {
+    font-size: 30px;
+}
+
+.grid8 h2 {
+    font-size: 20px;
+}
+
+.grid8 a {
+    font-size: 20px;
+}
+
+.grid9 h4 {
+    color: #FFFFFF;
+    font-size: 45px;
+    font-weight: 300;
+}
+
+.grid9 h1 {
+    color: #FFFFFF;
+    font-size: 40px;
+}
+
+.grid9 h2 {
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.grid9 a {
+    color: #FFFFFF;
+}
+
+footer {
+    color: #6E6E73;
+    display: flex;
+    flex-direction: column;
+    font-size: 12px
+}
+
+footer a {
+    color: #424245;
+    font-size: 12px;
+}
+
+footer h1 {
+    font-size: 12px;
+    color: #1D1D1F;
+}
+
+.footerLinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.part1, .part2, .part3, .part4, .part5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.informations a {
+    color: #0066CC;
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+}

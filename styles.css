@@ -96,18 +96,18 @@ html, body {
     font-size: 3.5rem;
 }
 
-.flex {
+.flexOne {
     display: flex;
     align-items: center;
 }
 
-.flex h2 {
+.flexOne h2 {
     margin: 1rem 0;
     font-weight: 100;
     font-size: 2rem;
 }
 
-.flex img {
+.flexOne img {
     margin-left: 0.5rem;
 }
 
@@ -127,4 +127,55 @@ html, body {
 
 .m2 {
     width: 2.6rem;
+}
+
+.sessionTwo {
+    background: url(./assets/iphoneBig.jpg) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+}
+
+.headerTwo {
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0 400px 0;
+}
+
+.headerTwo h1 {
+    font-size: 3.5rem;
+}
+
+.flexTwo {
+    display: flex;
+    align-items: center;
+}
+
+.flexTwo h2 {
+    margin: 1rem 0;
+    font-weight: 100;
+    font-size: 2rem;
+}
+
+.flexTwo img {
+    margin-left: 0.5rem;
+}
+
+.linksTwo {
+    display: flex;
+}
+
+.linksTwo h3{
+    color: #3082D5;
+    font-weight: 100;
+}
+
+.linksTwo h3:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
